@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2ebe3;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.contenedor {
+  width: 23.438rem;
+  margin: 0 auto;
+}
+
+.imagen img {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.info {
+  background-color: white;
+  padding: 1.5rem 1.3rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.perfume {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #6c7289;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.9rem;
+}
+
+.heading {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  color: #6c7289;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.precio {
+  font-family: "Fraunces", serif;
+  font-size: 2.3rem;
+  color: #3c8067;
+  margin-bottom: 1rem;
+}
+
+.precio span {
+  font-size: 0.9rem;
+  color: #6c7289;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 1rem;
+  text-decoration: line-through;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #3c8067;
+  border: none;
+  border-radius: 0.7rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.btn svg {
+  margin-right: 1rem;
+}
